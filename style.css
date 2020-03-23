@@ -1,0 +1,52 @@
+
+
+body { 
+    background: #352f5b;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-size: 32px;
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-size: 16px;
+ }
+
+ input {
+   
+     background: #271f45;
+     color: white;
+     font-size: 15px;
+     font-family: Geneva, Arial, Helvetica, sans-serif;
+     border: 1px solid #271f45 ;
+     border-radius: 5px;
+     padding: 8px;
+     width: 340px;
+     cursor: pointer;
+     margin-bottom: 30px;
+     margin-right: auto;
+	 margin-left: auto;
+
+ }
+
+ .all-blocks {
+     
+    margin-bottom: 40px;
+ }
+
+ .block {
+    
+    background: #423a6f;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid #271f45  ;
+    padding: 15px;
+    
+ }
+ i.far {
+    color:white;
+    float: right;
+ }

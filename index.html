@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74c67e2289.js" crossorigin="anonymous"></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input id="search" onkeyup="return search(event)" type="text" placeholder="search todos">
+    <div class="all-blocks" id="block"> </div>
+    <h2>Add a new todo...</h2>
+    <input onkeypress="return addTask(event)" type="text">
+
+
+   <script src="script.js"></script> 
+</body>
+</html>
